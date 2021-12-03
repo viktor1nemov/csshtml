@@ -1,0 +1,151 @@
+ body {
+background-color: beige;
+color: cadetblue;
+
+font: normal 20px 'Times New Roman', Times, serif;
+
+} 
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: rgb(110, 230, 54);
+}
+.ava{
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 1, 1, 0.5);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+ }
+
+ @media (max-width: 700px){
+     .info{
+         text-align: center;
+         display: block;
+     }
+ }
+
+ .info-text{
+     margin-left: 60px;
+     margin: auto;
+     padding-top: 30px;
+ }
+
+.info p{
+    margin: 0;
+    font-style: italic;
+ }
+
+ .container{
+    color: #000;
+    max-width: 75%;
+    margin: auto;
+} 
+
+.bg-1{
+    background: rgb(253, 93, 93);
+    box-shadow: 10px 10px 20px rgba(0, 1, 1, 0.5);
+}
+
+.bg-2{
+    background: rgb(120, 253, 93);
+    box-shadow: 10px 10px 20px rgba(0, 1, 1, 0.5);
+}
+
+.bg-3{
+    background: rgb(181, 93, 253);
+    box-shadow: 10px 10px 20px rgba(0, 1, 1, 0.5);
+}
+
+.card{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+.card h2{
+    margin-bottom: 10px;
+    
+}
+
+.list{
+    /* padding: 0 20px; */
+}
+
+.list li{
+    color:rgb(172, 235, 164);
+    margin-bottom: 10px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3){
+    color:rgb(194, 70, 26);
+}
+
+.contact h2{
+    text-align: center;
+} 
+
+.form-group label{
+font-size: 14px;
+color:darkgray;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child{
+        margin-right: 0px;
+}
+
+.btn{
+    background: rgb(241, 133, 8);
+    color: rgb(2, 1, 1);
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
